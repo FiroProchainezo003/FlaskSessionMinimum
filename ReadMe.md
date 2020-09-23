@@ -3,7 +3,8 @@
 ## プロジェクトについて
 
 このプロジェクトはFlaskで `session` を利用するための最小サンプルです。<br>
-sessionへの追加、取得が可能です。
+sessionへの値の追加、値の取得が可能です。<br>
+sessionを使う場合、SECRET_KEYの登録が必要なのに注意してください。
 
 ## プロジェクトの取得方法
 
@@ -27,7 +28,7 @@ app.pyの`app.secreat_key`の右の値を追加します。
 例)
 app.secret_key = b'\x00l\x86\x90\xf3\xa4\x90\x80\xf8\x07\xf5\xdd\xa6\x14\xda$\xbdF=\xef\xba7\xb9\x82'
 
-右の値は以下で取得可能です。
+値は以下のコマンドで作成可能です。
 
 ```
 $ python
@@ -59,7 +60,7 @@ app.pyの`app.secreat_key`の右の値を追加します。
 例)
 app.secret_key = b'\x00l\x86\x90\xf3\xa4\x90\x80\xf8\x07\xf5\xdd\xa6\x14\xda$\xbdF=\xef\xba7\xb9\x82'
 
-右の値は以下で取得可能です。
+値は以下のコマンドで作成可能です。
 
 ```
 $ python
